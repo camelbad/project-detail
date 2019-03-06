@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Wellbeing Kit</string>
+    <string name="achieve_something">Achieve Something</string>
+    <string name="what_helps_me">What helps me</string>
+    <string-array name="catagories">
+        <item>Happy</item>
+        <item>Angry</item>
+        <item>Sad</item>
+    </string-array>
+    <string name="resource_text">Resource Text</string>
+    <string name="how_to_title">HOW TO USE THIS KIT</string>
+    <string name="helpful_contacts_title">HELPFUL CONTACTS</string>
+    <string name="setting_title">SETTINGS</string>
+    <string name="my_links">Links I Find Helpful</string>
+    <string name="helpful_resources">Helpful Resources</string>>
+    <string name="for_more_info">For More Info</string>>
+    <string name="mental_health_services_helpline">Mental Health Helpline</string>
+    <string name="lifeline">Lifeline</string>
+    <string name="kids_helpline">Kids Helpline</string>
+    <string name="beyond_blue">Beyond Blue</string>
+    <string name="beyond_blue_help">Beyond Blue Helpline</string>
+    <string name="formoreinfo_addr">liveclarence@ccc.tas.gov.au</string>
+    <string name="about_app">ABOUT THIS APP</string>
+    <string name="order_kit">Click the icon to order physical kit</string>
+    <string name="Journal_head">MY JOURNAL</string>
+    <string name="Journal_info">There are no saved journal entries</string>
+
+    <string name="tutorialText_case0">There are no saved journal entries</string>
+
+    <string name="how_to_text">
+        Each of these cards will give you ideas about what can help you be at your best and stay on
+        track even if times are tough.\n\n
+        Everyone is different. Use the space on the back to write or draw things that are helpful
+        for you.\n\n
+        My Wellbeing Kit is a project of the Clarence Community Health and Wellbeing Advisory
+        Committee health Promotion Working Group.\n
+        It was developed with people from Flourish. DHHS Public Health Service, THS Mental Health
+        Services, Partners in Recovery\n [Colony 47], Youth Assist, and the Mental Health Council of
+        Tasmania.\n\n
+        Illustrations by Shiloh Longbottom.\n\n
+    </string>
+    <string name="title_activity_custom1">custom1</string>
+    <string name="clarence_email">liveclarence@ccc.tas.gov.au</string>
+    <string name="My_thoughts">My thoughts</string>
+    <string name="normal">Normal</string>
+    <string name="all">All</string>
+    <string name="happy">Happy</string>
+    <string name="sad">Sad</string>
+    <string name="angry">Angry</string>
+    <string name="cards">Cards</string>
+    <string name="my_journal">My Journal</string>
+    <string name="helpful_page">Helpful resources</string>
+    <string name="settings">Settings</string>
+    <string name="about">About this App</string>
+    <string name="title_activity_determine_pass_word_existing">Determine_passWord_existing</string>
+    <string name="todo">TODO</string>
+
+</resources>

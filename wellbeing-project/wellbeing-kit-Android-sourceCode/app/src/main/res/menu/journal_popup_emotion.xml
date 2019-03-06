@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/text_normal"
+        android:title="@string/normal" />
+    <item
+        android:id="@+id/text_all"
+        android:title="@string/all" />
+    <item
+        android:id="@+id/text_happy"
+        android:title="@string/happy" />
+    <item
+        android:id="@+id/text_angry"
+        android:title="@string/angry" />
+    <item
+        android:id="@+id/text_sad"
+        android:title="@string/sad" />
+</menu>

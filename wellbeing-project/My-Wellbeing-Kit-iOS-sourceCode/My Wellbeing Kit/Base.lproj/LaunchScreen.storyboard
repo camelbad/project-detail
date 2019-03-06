@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pz9-uq-GHp">
+                                <rect key="frame" x="0.0" y="0.0" width="22" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="22" id="Cas-4e-oCj"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jT9-j8-uYX">
+                                <rect key="frame" x="353" y="0.0" width="22" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="22" id="qc2-EV-pab"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7vI-Ry-3Sp">
+                                <rect key="frame" x="162" y="171" width="51" height="52.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52.5" id="nv3-4d-w5m"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="36"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wellbeing" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="osP-b2-djc">
+                                <rect key="frame" x="75" y="255" width="225" height="73.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="73.5" id="BF5-dj-tdW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="56"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="KIT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z7Q-G3-X9O">
+                                <rect key="frame" x="159" y="355" width="56" height="52.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52.5" id="hz1-iK-zhv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="36"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.2156862745" green="0.82745098039999998" blue="0.72156862749999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="osP-b2-djc" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="034-Bl-SQh"/>
+                            <constraint firstItem="7vI-Ry-3Sp" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="9GW-IA-tKI"/>
+                            <constraint firstItem="Z7Q-G3-X9O" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Ffw-mH-Qy9"/>
+                            <constraint firstItem="Pz9-uq-GHp" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Fmd-RI-QjY"/>
+                            <constraint firstItem="Z7Q-G3-X9O" firstAttribute="top" secondItem="osP-b2-djc" secondAttribute="bottom" constant="26.5" id="GrT-Cx-T3M"/>
+                            <constraint firstItem="7vI-Ry-3Sp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="151" id="Okh-sz-hOA"/>
+                            <constraint firstItem="osP-b2-djc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="235" id="Rvp-rG-zbJ"/>
+                            <constraint firstItem="jT9-j8-uYX" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="XZt-MJ-K40"/>
+                            <constraint firstItem="jT9-j8-uYX" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="Z8k-Cy-sqw"/>
+                            <constraint firstItem="jT9-j8-uYX" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="bsL-UW-6iy"/>
+                            <constraint firstItem="Pz9-uq-GHp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="i6U-Jb-Gib"/>
+                            <constraint firstItem="Pz9-uq-GHp" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="mF3-dY-3ze"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+</document>

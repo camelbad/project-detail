@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="standard_35">35dp</dimen>
+    <dimen name="standard_neg75">-65dp</dimen>
+    <dimen name="standard_neg150">-130dp</dimen>
+    <dimen name="standard_neg225">-195dp</dimen>
+    <dimen name="standard_neg300">-260dp</dimen>
+    <dimen name="standard_pos75">65dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="heading1">24sp</dimen>
+    <dimen name="heading2">22sp</dimen>
+    <dimen name="body">18sp</dimen>
+</resources>

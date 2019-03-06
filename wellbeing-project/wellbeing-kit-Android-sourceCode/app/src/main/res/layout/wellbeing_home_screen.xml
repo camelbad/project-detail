@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homescreen_background">
+
+    <ScrollView
+        android:id="@+id/scrollview_intial"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:id="@+id/linear_initial_page"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/My"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MY"
+                android:textColor="@color/colorFontUseful"
+                android:textSize="26sp"
+                android:typeface="normal"
+                android:layout_marginTop="@dimen/standard_35"
+                app:fontFamily="sans-serif" />
+
+            <TextView
+                android:id="@+id/WellBeing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="top"
+                android:text="Wellbeing"
+                android:textAlignment="center"
+                android:textColor="@color/colorFontUseful"
+                android:textSize="56sp"
+                android:textStyle="bold"
+                android:typeface="normal"
+                app:fontFamily="@font/asar" />
+
+            <TextView
+                android:id="@+id/my"
+                android:layout_width="wrap_content"
+                android:layout_height="53dp"
+                android:text="KIT"
+                android:textColor="@color/colorFontUseful"
+                android:textSize="26sp"
+                android:typeface="normal"
+                app:fontFamily="sans-serif" />
+
+            <RelativeLayout
+                android:id="@+id/rel_layout_menu_buttons"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                >
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/menuButtonCards"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:scaleType="center"
+                    android:src="@drawable/trans_menu_cards"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    app:backgroundTint="@color/MainPurple"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/menuTextCards"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/menuButtonCards"
+                    android:layout_alignBottom="@+id/menuButtonCards"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginBottom="0dp"
+                    android:layout_toEndOf="@+id/menuButtonCards"
+                    android:layout_toRightOf="@+id/menuButtonCards"
+                    android:gravity="center"
+                    android:text="Cards"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse"
+                    android:textSize="22sp" />
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/menuButtonJournal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/menuButtonCards"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:scaleType="center"
+                    android:src="@drawable/trans_menu_journal"
+                    app:backgroundTint="@color/MainPurple" />
+
+                <TextView
+                    android:id="@+id/menuTextJournal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/menuButtonJournal"
+                    android:layout_alignBottom="@+id/menuButtonJournal"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:layout_toEndOf="@+id/menuButtonJournal"
+                    android:layout_toRightOf="@+id/menuButtonJournal"
+                    android:gravity="center"
+                    android:text="Journal"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse" />
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/menuButtonHelpful"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/menuButtonJournal"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:scaleType="center"
+                    android:src="@drawable/trans_menu_helpful"
+                    app:backgroundTint="@color/MainPurple" />
+
+                <TextView
+                    android:id="@+id/menuTextHelpfuContacts"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/menuButtonHelpful"
+                    android:layout_alignBottom="@+id/menuButtonHelpful"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:layout_toEndOf="@+id/menuButtonHelpful"
+                    android:layout_toRightOf="@+id/menuButtonHelpful"
+                    android:gravity="center"
+                    android:text="Helpful Contacts"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse" />
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/menuButtonAbout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/menuButtonHelpful"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:scaleType="center"
+                    android:src="@drawable/trans_menu_about"
+                    app:backgroundTint="@color/MainPurple" />
+
+                <TextView
+                    android:id="@+id/menuTextAbout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/menuButtonAbout"
+                    android:layout_alignBottom="@+id/menuButtonAbout"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:layout_toEndOf="@+id/menuButtonAbout"
+                    android:layout_toRightOf="@+id/menuButtonAbout"
+                    android:gravity="center"
+                    android:text="About the Kit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse" />
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/menuButtonSetings"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/menuButtonAbout"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:scaleType="center"
+                    android:src="@drawable/trans_menu_settings"
+                    app:backgroundTint="@color/MainPurple" />
+
+                <TextView
+                    android:id="@+id/menuTextSettings"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/menuButtonSetings"
+                    android:layout_alignBottom="@+id/menuButtonSetings"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:layout_toEndOf="@+id/menuButtonSetings"
+                    android:layout_toRightOf="@+id/menuButtonSetings"
+                    android:gravity="center"
+                    android:text="Settings"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

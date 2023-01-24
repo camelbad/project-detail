@@ -1,0 +1,15 @@
+﻿C:\Z-mySpace\skill\vsiualStudio\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Assignment3.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  assig_three119.c
+  game_state.c
+  game_tree.c
+  node.c
+  queue.c
+C:\Z-mySpace\softWare\c\sourceCode\nQueens\Assignment3\queue.c(35,7): warning C4013: 'trace' undefined; assuming extern returning int
+  square_state.c
+  stack.c
+C:\Z-mySpace\softWare\c\sourceCode\nQueens\Assignment3\stack.c(33,7): warning C4013: 'trace' undefined; assuming extern returning int
+  t_node.c
+  Generating Code...
+C:\Z-mySpace\softWare\c\sourceCode\nQueens\Assignment3\game_tree.c(404): warning C4715: 'build_gameBF': not all control paths return a value
+C:\Z-mySpace\softWare\c\sourceCode\nQueens\Assignment3\game_tree.c(500): warning C4715: 'build_gameDF': not all control paths return a value
+  Assignment3.vcxproj -> C:\Z-mySpace\softWare\c\sourceCode\nQueens\Debug\nQueens.exe

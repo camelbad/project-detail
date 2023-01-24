@@ -1,0 +1,5 @@
+﻿  graph.c
+  main.c
+D:\utas\sem3\205\assignment2zzz\pathFinding\KIT205Assig2\main.c(6,17): warning C4013: 'time' undefined; assuming extern returning int
+  Generating Code...
+  KIT205Assig2.vcxproj -> D:\utas\sem3\205\assignment2zzz\pathFinding\Debug\KIT205Assig2.exe
